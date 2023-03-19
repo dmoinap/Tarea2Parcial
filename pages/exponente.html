@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/principal.css">
+        <title>EJERCICIO 4</title>
+    </head>
+    <body>
+        <section class="contenedor">
+            <h1>EXPONENTE</h1>
+            <form action="../index.html">
+                <div class="operaciones">
+                    <div class="grupo">
+                        <label for="base">Base:</label>
+                        <input type="text" id="num1" value="" />
+                    </div>
+                    <div class="grupo">
+                        <label for="exponente">Exponente:</label>
+                        <input type="text" id="num2" />
+                    </div>
+                </div>
+                <div class="grupo">
+                    <button type="button" onclick="ejer4.esxponenteSerie()">Calcular</button>
+                    <button type="reset">Limpiar</button>
+                    <button type="submit">Regresar</button>
+                </div>               
+                <textarea  id="resp" rows="10">
+                    Respuesta aqui...
+
+                </textarea>
+            </form>
+        </section>
+        <script src="../js/ejer4.js">
+            
+        </script>
+    </body>
+</html>
